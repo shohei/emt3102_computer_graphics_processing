@@ -33,7 +33,6 @@ void box_and_axis()
   drawVertices(vertices);
 }
 
-
 float[][] boxVertices(float s) {
   s = s/2;
   float[][] box={
