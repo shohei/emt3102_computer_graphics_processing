@@ -1,12 +1,12 @@
 void setup()
 {
   size(640, 480, P3D);
+  camera(100, -100, 100, 0, 0, 0, 0, 1, 0);
 }
 
 void draw()
 {
   background(127, 127, 127);
-  camera(100, -100, 100, 0, 0, 0, 0, 1, 0);
   axis(100);
 }
 
